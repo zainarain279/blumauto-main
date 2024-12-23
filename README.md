@@ -36,7 +36,7 @@
 
 6. Run the program/script.
    ```
-   python bot.py
+   python bot-zain.py
    ```
 
 ## Zain Arain 
