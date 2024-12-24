@@ -1,3 +1,32 @@
+## Termux 3.10 Version commands
+```shell
+termux-setup-storage
+```
+```shell
+pkg update && upgrade
+```
+```shell
+pkg install tur-repo
+```
+```shell
+pkg install python-is-python3.10
+```
+```shell
+pkg install -y rust binutils
+```
+```shell
+CARGO_BUILD_TARGET="$(rustc -Vv | grep "host" | awk '{print $2}')" pip install maturin
+```
+```shell
+pkg install git
+```
+```shell
+pkg install nano
+```
+```shell
+pkg install node
+```
+
 ## Zain Arain 
 
 ## Zain Arain 
