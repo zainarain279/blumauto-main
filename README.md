@@ -62,10 +62,14 @@ pkg install node
    ```
 
 5. Edit the `data.txt` file, enter your query data into the `data.txt` file. You can get your query by following [How to Get the Query](#how-to-get-the-query). One line for 1 account, if you want to add a 2nd account, fill it in on a new line.
-
+```shell
+nano data.txt
+```
 6. Run the program/script.
    ```
    python bot-zain.py
    ```
-
+```shell
+python bot-main.py
+```
 ## Zain Arain 
