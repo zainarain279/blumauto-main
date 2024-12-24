@@ -1,4 +1,4 @@
-## Termux 3.10 Version commands
+1. ## Termux 3.10 Version commands
 ```shell
 termux-setup-storage
 ```
@@ -35,16 +35,9 @@ pkg install node
 
 1. Make sure your device has Python and Git installed.
 
-    Recommendation: Use Python version 3.8+ (3.8 or newer)
+    Recommendation: Use Python version 3.8+ (3.10)
    
    Python
-   ```shell
-   pkg install python3
-   ```
-   Git
-   ```shell
-   pkg install git
-   ```
 
 2. Clone this repository.
    ```shell
