@@ -60,7 +60,7 @@ nano data.txt
 ```
 6. Run the program/script.
 ```shell
-python bot.pt
+python bot.py
 ```
    ```
    python bot-zain.py
