@@ -59,6 +59,9 @@ pkg install node
 nano data.txt
 ```
 6. Run the program/script.
+```shell
+python bot.pt
+```
    ```
    python bot-zain.py
    ```
