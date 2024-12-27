@@ -383,7 +383,7 @@ class BlumTod:
                         res = await self.http(claim_url, self.headers, data)
                         if "OK" in res.text:
                             self.log(
-                                f"{green}success earn︎︎ game ! {white}{point}{green} 𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎https://t.me/AirdropScript6from 𒊹︎︎︎𒊹︎︎︎𒊹"
+                                f"{green}success earn︎︎from game ! {white}{point}{green} 𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎https://t.me/AirdropScript6 𒊹︎︎︎𒊹︎︎︎𒊹"
                             )
                             break
                         message = res.json().get("message", "")
@@ -416,7 +416,7 @@ class BlumTod:
                     return
                 _status = _res.json().get("status")
                 if _status == "FINISHED":
-                    self.log(f"{green}success complete task id {white}{task_id} 𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎https://t.me/AirdropScript6from 𒊹︎︎︎𒊹︎︎︎𒊹!")
+                    self.log(f"{green}success complete task id {white}{task_id} 𒊹︎︎︎𒊹︎︎︎𒊹︎︎︎https://t.me/AirdropScript6 𒊹︎︎︎𒊹︎︎︎𒊹!")
                     return
             if task_status == "NOT_STARTED" and task_type == "PROGRESS_TARGET":
                 return
